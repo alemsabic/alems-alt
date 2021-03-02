@@ -20,15 +20,13 @@ import { DarkModeSwitch } from '/home/runner/work/x/x/.codedoc/node_modules/@cod
 import { ConfigTransport } from '/home/runner/work/x/x/.codedoc/node_modules/@codedoc/core/dist/es6/transport/config.js';
 import { ArticleCard } from '/home/runner/work/x/x/.codedoc/node_modules/@codedoc/coding-blog-plugin/dist/es5/components/article-card/index.js';
 import { Author } from '/home/runner/work/x/x/.codedoc/node_modules/@codedoc/coding-blog-plugin/dist/es5/components/author/index.js';
-import { ToCPrevNext } from '/home/runner/work/x/x/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/prevnext/index.js';
 
 const components = {
   'Hiizz026+l4NpTYeYPLrFg==': ToCToggle,
   'YeWf2uAq7eaxdwLLdp+IbQ==': DarkModeSwitch,
   'TZwX8/r0F0Hx8Lfkk1rQSw==': ConfigTransport,
   'M8r/YxaiXYybM5TXezzCyg==': ArticleCard,
-  '7fvJNbkx8rbUCP3sQgEsGA==': Author,
-  'HWPyibblWF6CD6WzQRzk1Q==': ToCPrevNext
+  '7fvJNbkx8rbUCP3sQgEsGA==': Author
 };
 
 const renderer = getRenderer();

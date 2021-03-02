@@ -106,11 +106,6 @@
       "name": "Author",
       "filename": "/home/runner/work/x/x/.codedoc/node_modules/@codedoc/coding-blog-plugin/dist/es5/components/author/index.js",
       "hash": "7fvJNbkx8rbUCP3sQgEsGA=="
-    },
-    {
-      "name": "ToCPrevNext",
-      "filename": "/home/runner/work/x/x/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/prevnext/index.js",
-      "hash": "HWPyibblWF6CD6WzQRzk1Q=="
     }
   ],
   "renderer": {
