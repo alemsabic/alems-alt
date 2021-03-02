@@ -9,19 +9,15 @@
 
 > :Title
 >
-> Sample Blog
+> X ALEMS.ORG
 
-This is a sample homepage for your [`coding.blog`](https://coding.blog). You can use
-it to showcase your latest / most-important blog posts (or whatever suites your case).
-You can modify its content by editting `posts/index.md`.
+Curabitur dignissim libero ut ornare porttitor. In vel varius est. In ac lacus egestas, gravida felis id, efficitur turpis. Integer eleifend purus velit, a suscipit ligula luctus ac. Sed id nunc molestie, aliquam dolor eu, lobortis odio. Phasellus accumsan cursus volutpat. Sed viverra, ante sit amet accumsan malesuada, erat metus volutpat urna, a laoreet erat sapien eget libero. Fusce eget dictum lacus.
+
+Phasellus vitae efficitur libero, et rutrum quam. Nam eget ultrices ligula. Sed eleifend massa ullamcorper, tempus quam a, maximus nibh. Vivamus a lectus nulla. Nulla ut augue consectetur, ultrices elit vel, porttitor ligula. Aenean elit velit, facilisis a pharetra luctus, facilisis vel lorem. Nunc finibus sagittis ullamcorper. Ut varius porta erat vitae bibendum. Aliquam viverra elit tempus purus consectetur, id suscipit nisl posuere. Nulla vitae aliquet turpis.
 
 ---
 
-# Latest Posts
-
-So here are the latest posts:
-
-> :ArticleCard src=/sample-blog-post, style=box
+> :ArticleCard src=https://www.alems.org, style=box
 
 > :ArticleCard src=/sample-blog-post, style=box
 
@@ -30,25 +26,3 @@ So here are the latest posts:
 > :ArticleCard src=/sample-blog-post
 
 ---
-
-# Docs
-
-`coding.blog` is based on [**CODEDOC**](https://codedoc.cc). Checkout the official documentations
-of **CODEDOC** to learn more about how it works and how you can utilize it to create your blog.
-
-> :Buttons
-> > :Button label=CODEDOC Docs, url=https://codedoc.cc
-
-Additionally, this boilerplate uses [`coding.blog` Plugin for **CODEDOC**](https://github.com/CONNECT-platform/coding-blog-plugin),
-which offers components and functionality specifically designed around writing blog-posts
-and publishing them to `coding.blog`. Checkout the documentation of that plugin to learn more
-about the tools at your displosal for blogging.
-
-> :Buttons
-> > :Button label=Plugin Docs, url=https://connect-platform.github.io/coding-blog-plugin/
-
-<br><br>
-
-> :Author src=github
-
-> :ToCPrevNext
