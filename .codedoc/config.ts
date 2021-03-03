@@ -20,7 +20,7 @@ export const config = /*#__PURE__*/configuration({
   },
   page: {
     title: {
-      base: 'alems.org news'         // --> change this to change your blog's title
+      base: 'x2 alems.org'         // --> change this to change your blog's title
     },
     favicon: '/favicon.ico'
   },
@@ -34,7 +34,7 @@ export const config = /*#__PURE__*/configuration({
   ],
   misc: {
     github: {
-      repo: 'x',         // --> change this to your github repo
+      repo: 'x2',         // --> change this to your github repo
       user: 'alemsabic'         // --> change this to your github username
     }
   }
