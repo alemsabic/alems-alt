@@ -2,115 +2,110 @@
   "init": [
     {
       "name": "initJssCs",
-      "filename": "/home/runner/work/x/x/.codedoc/node_modules/@codedoc/core/dist/es6/transport/setup-jss.js",
-      "hash": "R7xKPvGA1hjB4DE6ImwkzQ=="
+      "filename": "/home/runner/work/x2/x2/.codedoc/node_modules/@codedoc/core/dist/es6/transport/setup-jss.js",
+      "hash": "JURxpkFfcsxw6TW5jhMJvA=="
     },
     {
       "name": "installTheme",
-      "filename": "/home/runner/work/x/x/.codedoc/content/theme.ts",
-      "hash": "hpruui7b0lFcUMk0LjzOdw=="
+      "filename": "/home/runner/work/x2/x2/.codedoc/content/theme.ts",
+      "hash": "5Yb8OPTaGY9B0Jqg9rYhqg=="
     },
     {
       "name": "countCards",
-      "filename": "/home/runner/work/x/x/.codedoc/node_modules/@codedoc/coding-blog-plugin/dist/es5/components/article-card/count-cards.js",
-      "hash": "hISQdAA+gAk4VqkFiMFS3A=="
+      "filename": "/home/runner/work/x2/x2/.codedoc/node_modules/@codedoc/coding-blog-plugin/dist/es5/components/article-card/count-cards.js",
+      "hash": "McB/ZFdwnoBQXnDvMtiKQw=="
     },
     {
       "name": "codeSelection",
-      "filename": "/home/runner/work/x/x/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/selection.js",
-      "hash": "f0m0Jk6EQaUbZTGhBcQFOA=="
+      "filename": "/home/runner/work/x2/x2/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/selection.js",
+      "hash": "bIpr2gWogh5mEKdGYkM/hQ=="
     },
     {
       "name": "sameLineLengthInCodes",
-      "filename": "/home/runner/work/x/x/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/same-line-length.js",
-      "hash": "aXkR8mDBpoNv3+12urH9uw=="
+      "filename": "/home/runner/work/x2/x2/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/same-line-length.js",
+      "hash": "8HGG0y6uZRs/UGvJH3o+4w=="
     },
     {
       "name": "initHintBox",
-      "filename": "/home/runner/work/x/x/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/line-hint/index.js",
-      "hash": "grXUasMRQoZ9qCKvvGUqOQ=="
+      "filename": "/home/runner/work/x2/x2/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/line-hint/index.js",
+      "hash": "j3kdwU4niFF8x2EVz4J1yQ=="
     },
     {
       "name": "initCodeLineRef",
-      "filename": "/home/runner/work/x/x/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/line-ref/index.js",
-      "hash": "eworoM0XOxRT5BCd9gidow=="
+      "filename": "/home/runner/work/x2/x2/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/line-ref/index.js",
+      "hash": "3BC1J6qVwAowDpY3V6Bwwg=="
     },
     {
       "name": "initSmartCopy",
-      "filename": "/home/runner/work/x/x/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/smart-copy.js",
-      "hash": "23AgaT/vsTdEme0CbrUqCg=="
+      "filename": "/home/runner/work/x2/x2/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/smart-copy.js",
+      "hash": "BjOhDvJ9sQtJhrCCy/PamA=="
     },
     {
       "name": "copyHeadings",
-      "filename": "/home/runner/work/x/x/.codedoc/node_modules/@codedoc/core/dist/es6/components/heading/copy-headings.js",
-      "hash": "5ou5eBBg+3wdS1xRSgIwzA=="
+      "filename": "/home/runner/work/x2/x2/.codedoc/node_modules/@codedoc/core/dist/es6/components/heading/copy-headings.js",
+      "hash": "cBb8pgutOLveH9F+u5yIig=="
     },
     {
       "name": "contentNavHighlight",
-      "filename": "/home/runner/work/x/x/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/contentnav/highlight.js",
-      "hash": "hw77wmKeB1r+o6bGaVDpLw=="
+      "filename": "/home/runner/work/x2/x2/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/contentnav/highlight.js",
+      "hash": "MkBNqO9QFz5zuPYq25e+Vg=="
     },
     {
       "name": "loadDeferredIFrames",
-      "filename": "/home/runner/work/x/x/.codedoc/node_modules/@codedoc/core/dist/es6/transport/deferred-iframe.js",
-      "hash": "KW1QizeFte6PdDSyYi6xeA=="
+      "filename": "/home/runner/work/x2/x2/.codedoc/node_modules/@codedoc/core/dist/es6/transport/deferred-iframe.js",
+      "hash": "S7iTbD66+GgjbbsPH/cwuw=="
     },
     {
       "name": "smoothLoading",
-      "filename": "/home/runner/work/x/x/.codedoc/node_modules/@codedoc/core/dist/es6/transport/smooth-loading.js",
-      "hash": "6FuLkfIUxhcHpGFc02g4ig=="
+      "filename": "/home/runner/work/x2/x2/.codedoc/node_modules/@codedoc/core/dist/es6/transport/smooth-loading.js",
+      "hash": "2IFWlh+53QDSeKi6ocihBw=="
     },
     {
       "name": "tocHighlight",
-      "filename": "/home/runner/work/x/x/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/toc-highlight.js",
-      "hash": "7Obb7d5lGGd8X8Suq0227g=="
+      "filename": "/home/runner/work/x2/x2/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/toc-highlight.js",
+      "hash": "8mx5x/g6Mjk8G5sUB2HxOA=="
     },
     {
       "name": "postNavSearch",
-      "filename": "/home/runner/work/x/x/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/search/post-nav/index.js",
-      "hash": "hB7MgG1vp6kEcU7N/mF1HQ=="
+      "filename": "/home/runner/work/x2/x2/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/search/post-nav/index.js",
+      "hash": "9qsiRypARVH0mUNwoBK+Bg=="
     },
     {
       "name": "copyLineLinks",
-      "filename": "/home/runner/work/x/x/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/line-links/copy-line-link.js",
-      "hash": "J00TeCRrmUndNQLblSUBjw=="
+      "filename": "/home/runner/work/x2/x2/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/line-links/copy-line-link.js",
+      "hash": "u5XLDY1pKlBAAXwhzRwW8g=="
     },
     {
       "name": "gatherFootnotes",
-      "filename": "/home/runner/work/x/x/.codedoc/node_modules/@codedoc/core/dist/es6/components/footnote/gather-footnotes.js",
-      "hash": "xsRpeUoodDLKqgGWwzM1PA=="
+      "filename": "/home/runner/work/x2/x2/.codedoc/node_modules/@codedoc/core/dist/es6/components/footnote/gather-footnotes.js",
+      "hash": "BzZLP0B9QVCBTom9OVh1Fg=="
     }
   ],
   "components": [
     {
       "name": "ToCToggle",
-      "filename": "/home/runner/work/x/x/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/toggle/index.js",
-      "hash": "Hiizz026+l4NpTYeYPLrFg=="
+      "filename": "/home/runner/work/x2/x2/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/toggle/index.js",
+      "hash": "s+6ji5CwlIGpSyXUTyKvPQ=="
     },
     {
       "name": "DarkModeSwitch",
-      "filename": "/home/runner/work/x/x/.codedoc/node_modules/@codedoc/core/dist/es6/components/darkmode/index.js",
-      "hash": "YeWf2uAq7eaxdwLLdp+IbQ=="
+      "filename": "/home/runner/work/x2/x2/.codedoc/node_modules/@codedoc/core/dist/es6/components/darkmode/index.js",
+      "hash": "B5pzqxtMuHFatwaUv+7Q2w=="
     },
     {
       "name": "ConfigTransport",
-      "filename": "/home/runner/work/x/x/.codedoc/node_modules/@codedoc/core/dist/es6/transport/config.js",
-      "hash": "TZwX8/r0F0Hx8Lfkk1rQSw=="
+      "filename": "/home/runner/work/x2/x2/.codedoc/node_modules/@codedoc/core/dist/es6/transport/config.js",
+      "hash": "h/KeWPtS1W9YCrs4FyMdDg=="
     },
     {
       "name": "ArticleCard",
-      "filename": "/home/runner/work/x/x/.codedoc/node_modules/@codedoc/coding-blog-plugin/dist/es5/components/article-card/index.js",
-      "hash": "M8r/YxaiXYybM5TXezzCyg=="
-    },
-    {
-      "name": "Author",
-      "filename": "/home/runner/work/x/x/.codedoc/node_modules/@codedoc/coding-blog-plugin/dist/es5/components/author/index.js",
-      "hash": "7fvJNbkx8rbUCP3sQgEsGA=="
+      "filename": "/home/runner/work/x2/x2/.codedoc/node_modules/@codedoc/coding-blog-plugin/dist/es5/components/article-card/index.js",
+      "hash": "zx9yWqL4pFC1adbDjZRoxA=="
     }
   ],
   "renderer": {
     "name": "getRenderer",
-    "filename": "/home/runner/work/x/x/.codedoc/node_modules/@codedoc/core/dist/es6/transport/renderer.js",
-    "hash": "GQGw5rprQt0yovPgrtZi8Q=="
+    "filename": "/home/runner/work/x2/x2/.codedoc/node_modules/@codedoc/core/dist/es6/transport/renderer.js",
+    "hash": "jcQuhELLAOaLUUe5FaM30w=="
   }
 }
