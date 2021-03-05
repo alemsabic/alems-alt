@@ -1,15 +1,9 @@
-> :DarkLight
-> > :InLight
-> >
-> > ![banner](/img/cb-banner.svg)
->
-> > :InDark
-> >
-> > ![banner](/img/cb-banner-dark.svg)
+> :Space
+
 
 > :Title
 >
-> X ALEMS.ORG
+> X<sup>2</sup> ALEMS.ORG
 
 Curabitur dignissim libero ut ornare porttitor. In vel varius est. In ac lacus egestas, gravida felis id, efficitur turpis. Integer eleifend purus velit, a suscipit ligula luctus ac. Sed id nunc molestie, aliquam dolor eu, lobortis odio. Phasellus accumsan cursus volutpat. Sed viverra, ante sit amet accumsan malesuada, erat metus volutpat urna, a laoreet erat sapien eget libero. Fusce eget dictum lacus.
 
@@ -17,9 +11,6 @@ Phasellus vitae efficitur libero, et rutrum quam. Nam eget ultrices ligula. Sed 
 
 ---
 
-> :ArticleCard src=https://www.alems.org, style=box
-
-> :ArticleCard src=/sample-blog-post, style=box
 
 > :ArticleCard src=/sample-blog-post
 

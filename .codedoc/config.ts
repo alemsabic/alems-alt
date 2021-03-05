@@ -20,9 +20,17 @@ export const config = /*#__PURE__*/configuration({
   },
   page: {
     title: {
-      base: 'x2 alems.org'         // --> change this to change your blog's title
+      base: 'x2 alems.org',
+      connector: ' > ',
     },
-    favicon: '/favicon.ico'
+    meta: {                              // --> meta tags of each page
+      subject: 'Sarajevski žargon',           // --> the subject meta tag for each page
+      description: 'Stranica Alema Šabića. Uz pomoć nekih drugih budala.',          // --> description meta tag for each page
+      keywords: ['test','test', 'text'],                        
+      themeColor: '#007',             // --> the browser bar color of your docs
+      appleMobileWebStatusBarStyle:      // --> same as above, but for iOS Safari
+        'black-translucent',
+    },
   },
   plugins: [
     codingBlog({
