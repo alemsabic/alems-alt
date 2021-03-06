@@ -66,19 +66,19 @@ body.dark .darklight-0-0-1>.dark {
   }
   body.dark .button-0-0-2 {
     color: #000;
-    background: #c9a309;
-    border-color: #c9a309;
+    background: #69f0ae;
+    border-color: #69f0ae;
   }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) .button-0-0-2 {
     color: #000;
-    background: #c9a309;
-    border-color: #c9a309;
+    background: #69f0ae;
+    border-color: #69f0ae;
   }
   body:not(.dark-mode-animate) .button-0-0-2[disabled] {
     color: #000;
-    border: rgba(201, 163, 9, 0.35);
-    background: rgba(201, 163, 9, 0.35);
+    border: rgba(105, 240, 174, 0.35);
+    background: rgba(105, 240, 174, 0.35);
   }
 }
   .button-0-0-2:hover:not([disabled]) {
@@ -87,19 +87,19 @@ body.dark .darklight-0-0-1>.dark {
     text-decoration: none;
   }
   body.dark .button-0-0-2:hover:not([disabled]) {
-    color: #c9a309;
+    color: #69f0ae;
     background: transparent;
   }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) .button-0-0-2:hover:not([disabled]) {
-    color: #c9a309;
+    color: #69f0ae;
     background: transparent;
   }
 }
   body.dark .button-0-0-2[disabled] {
     color: #000;
-    border: rgba(201, 163, 9, 0.35);
-    background: rgba(201, 163, 9, 0.35);
+    border: rgba(105, 240, 174, 0.35);
+    background: rgba(105, 240, 174, 0.35);
   }
 a.button-0-0-2 {
   height: 28px;
@@ -126,11 +126,11 @@ a.button-0-0-2.icon {
   }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) .watermark-0-0-3 {
-    color: #c9a309;
+    color: #69f0ae;
   }
 }
   body.dark .watermark-0-0-3 {
-    color: #c9a309;
+    color: #69f0ae;
   }
   .watermark-0-0-3 svg {
     height: 2rem;
@@ -143,11 +143,11 @@ a.button-0-0-2.icon {
     transition: fill .3s;
   }
   body.dark .watermark-0-0-3 svg g {
-    fill: #c9a309;
+    fill: #69f0ae;
   }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) .watermark-0-0-3 svg g {
-    fill: #c9a309;
+    fill: #69f0ae;
   }
 }
   .header-0-0-4 {
@@ -226,11 +226,11 @@ a.button-0-0-2.icon {
     transition: background .3s;
   }
   body.dark .footer-0-0-5 .main>.inside hr {
-    background: rgba(201,163,9,0.4);
+    background: rgba(105,240,174,0.4);
   }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) .footer-0-0-5 .main>.inside hr {
-    background: rgba(201,163,9,0.4);
+    background: rgba(105,240,174,0.4);
   }
 }
   .toc-0-0-6 {
@@ -252,12 +252,12 @@ a.button-0-0-2.icon {
   }
   body.dark .toc-0-0-6 {
     background: rgba(0,0,0,0.4);
-    border-color: rgba(201,163,9,0.4);
+    border-color: rgba(105,240,174,0.4);
   }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) .toc-0-0-6 {
     background: rgba(0,0,0,0.4);
-    border-color: rgba(201,163,9,0.4);
+    border-color: rgba(105,240,174,0.4);
   }
 }
 @media screen and (max-width: 1200px) {
@@ -301,12 +301,12 @@ a.button-0-0-2.icon {
   }
   body.dark .toc-0-0-6 a.current {
     background: hsl(0, 0%, 0%);
-    border-color: rgba(201,163,9,0.4);
+    border-color: rgba(105,240,174,0.4);
   }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) .toc-0-0-6 a.current {
     background: #000;
-    border-color: rgba(201,163,9,0.4);
+    border-color: rgba(105,240,174,0.4);
   }
 }
 @media screen and (max-width: 1200px) {
@@ -366,23 +366,23 @@ a.button-0-0-2.icon {
   }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) .contentnav-0-0-9 {
-    border-color: rgba(201,163,9,0.4);
+    border-color: rgba(105,240,174,0.4);
   }
   body:not(.dark-mode-animate) .contentnav-0-0-9 a {
-    color: #c9a309;
+    color: #69f0ae;
   }
   body:not(.dark-mode-animate) .contentnav-0-0-9 a:hover, body:not(.dark-mode-animate) .contentnav-0-0-9 a.active {
-    color: #c9a309;
+    color: #69f0ae;
   }
 }
   body.dark .contentnav-0-0-9 {
-    border-color: rgba(201,163,9,0.4);
+    border-color: rgba(105,240,174,0.4);
   }
   body.dark .contentnav-0-0-9 a {
-    color: #c9a309;
+    color: #69f0ae;
   }
   body.dark .contentnav-0-0-9 a:hover, body.dark .contentnav-0-0-9 a.active {
-    color: #c9a309;
+    color: #69f0ae;
   }
   body.dark-mode-animate .contentnav-0-0-9 a {
     transition: color .3s, opacity .3s;
@@ -436,11 +436,11 @@ body.dark-mode-animate a {
 }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) a {
-    color: #c9a309;
+    color: #69f0ae;
   }
 }
 body.dark a {
-  color: #c9a309;
+  color: #69f0ae;
 }
 .container {
   margin: 0 auto;
@@ -485,19 +485,19 @@ body.dark-mode-animate table tr:nth-child(even) {
   transition: background .3s;
 }
 body.dark table td {
-  border-color: rgba(201,163,9,0.4);
+  border-color: rgba(105,240,174,0.4);
 }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) table td {
-    border-color: rgba(201,163,9,0.4);
+    border-color: rgba(105,240,174,0.4);
   }
 }
 body.dark table th {
-  border-color: #C9A309;
+  border-color: #69F0AE;
 }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) table th {
-    border-color: #C9A309;
+    border-color: #69F0AE;
   }
 }
 body.dark-mode-animate table th, body.dark-mode-animate table td {
@@ -513,11 +513,11 @@ body.dark-mode-animate hr {
   transition: border-color .3s;
 }
 body.dark hr {
-  border-color: rgba(201,163,9,0.4);
+  border-color: rgba(105,240,174,0.4);
 }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) hr {
-    border-color: rgba(201,163,9,0.4);
+    border-color: rgba(105,240,174,0.4);
   }
 }
 #-codedoc-toc hr {
@@ -551,28 +551,28 @@ body.dark-mode-animate blockquote:after {
 }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) {
-    color: #c9a309;
+    color: #69f0ae;
     background: #000;
   }
   body:not(.dark-mode-animate) blockquote {
-    color: #c9a309;
+    color: #69f0ae;
     background: #000;
   }
   body:not(.dark-mode-animate) blockquote:after {
-    background: radial-gradient(circle at center, rgba(201,163,9,0.4) 50%, transparent 52%),transparent;
+    background: radial-gradient(circle at center, rgba(105,240,174,0.4) 50%, transparent 52%),transparent;
     background-size: 4px 4px;
   }
 }
 body.dark {
-  color: #c9a309;
+  color: #69f0ae;
   background: #000;
 }
 body.dark blockquote {
-  color: #c9a309;
+  color: #69f0ae;
   background: #000;
 }
 body.dark blockquote:after {
-  background: radial-gradient(circle at center, rgba(201,163,9,0.4) 50%, transparent 52%),transparent;
+  background: radial-gradient(circle at center, rgba(105,240,174,0.4) 50%, transparent 52%),transparent;
   background-size: 4px 4px;
 }
 img {
@@ -595,12 +595,12 @@ body.dark-mode-animate code {
   transition: color .3s, background .3s;
 }
 body.dark code {
-  color: #c9a309;
+  color: #69f0ae;
   background: #000;
 }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) code {
-    color: #c9a309;
+    color: #69f0ae;
     background: #000;
   }
 }
@@ -636,22 +636,22 @@ body.dark code {
     color: #000;
   }
   body.dark .h-0-0-11.text {
-    color: #c9a309;
+    color: #69f0ae;
   }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) .h-0-0-11.text {
-    color: #c9a309;
+    color: #69f0ae;
   }
 }
   body.dark .h-0-0-11.primary-contrast {
     color: #000;
   }
   body.dark .h-0-0-11.primary {
-    color: #c9a309;
+    color: #69f0ae;
   }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) .h-0-0-11.primary {
-    color: #c9a309;
+    color: #69f0ae;
   }
 }
   body.dark .hero-0-0-12[data-mode="light"] {
