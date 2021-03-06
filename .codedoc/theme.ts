@@ -12,17 +12,17 @@ export const theme = /*#__PURE__*/createTheme({
   },
   dark: {
     background: '#000',           // --> CSS color string, background of the page
-    text: '#c9a309',              // --> CSS color string, color of text
-    primary: '#c9a309',            // --> CSS color string, primary color (for buttons, links, etc)
+    text: '#69f0ae',              // --> CSS color string, color of text
+    primary: '#69f0ae',            // --> CSS color string, primary color (for buttons, links, etc)
     primaryContrast: '#000',  // --> CSS color string, text color on primary background (e.g. buttons)
-    border: 'rgba(201,163,9,0.4)',      // --> CSS color string, border colors
-    code: '#c9a309',                  // --> CSS color string, in-text code color
+    border: 'rgba(105,240,174,0.4)',      // --> CSS color string, border colors
+    code: '#69f0ae',                  // --> CSS color string, in-text code color
   },
   quote: {
     dark: {
       background: '#000',
-      text: '#c9a309', 
-      border: 'rgba(201,163,9,0.4)',
+      text: '#69f0ae', 
+      border: 'rgba(105,240,174,0.4)',
     },
     light: {
       background: '#C8C8C8',
@@ -37,7 +37,7 @@ export const theme = /*#__PURE__*/createTheme({
     },
     dark: {
       background: 'rgba(0,0,0,0.4)',             // --> CSS color string, background of ToC
-      border: 'rgba(201,163,9,0.4)',                // --> CSS color string, border of ToC
+      border: 'rgba(105,240,174,0.4)',                // --> CSS color string, border of ToC
     },             
   },
 });

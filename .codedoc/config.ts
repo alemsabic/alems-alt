@@ -30,6 +30,7 @@ export const config = /*#__PURE__*/configuration({
       themeColor: '#000',             // --> the browser bar color of your docs
       appleMobileWebStatusBarStyle:      // --> same as above, but for iOS Safari
         'black-translucent',
+        
     },
   },
   plugins: [
