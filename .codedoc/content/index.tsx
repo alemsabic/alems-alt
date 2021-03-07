@@ -20,6 +20,25 @@ export function content(_content: HTMLElement, toc: HTMLElement, renderer: Rende
           header={<Header {...config}/>}
           footer={<Footer {...config}/>}
           toc={<ToC>{toc}</ToC>}>
+
+<style>
+{`
+h2 {line-height:1.3; text-transform:uppercase;}
+h3 {line-height:1.3; text-transform:uppercase;}
+h1 p {line-height:1.3; text-transform:uppercase; text-align:center;}
+.container {line-height:2;}
+.inside a.icon-font {font-size:36px;}
+.inside a.icon-font {
+  opacity: 0.35;
+}
+.inside a.icon-font:hover {
+  opacity: 1;
+  text-decoration: none !important;
+}
+`}
+</style>
+
+
       {_content}
       <ContentNav content={_content}/>
     </Page>

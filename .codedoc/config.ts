@@ -1,10 +1,14 @@
 
-import { configuration } from '@codedoc/core';
+import { configuration,
+  DefaultMarkdownCustomComponents
+ } from '@codedoc/core';
 import { codingBlog } from '@codedoc/coding-blog-plugin';
 
 import { theme } from './theme';
 
-
+import { Utterances } from './components/utterances';
+import { SeeTypo$ } from './components/SeeTypo';
+import { SeeTypoDe$ } from './components/SeeTypoDe';
 
 export const config = /*#__PURE__*/configuration({
   theme,
@@ -33,6 +37,17 @@ export const config = /*#__PURE__*/configuration({
         
     },
   },
+
+  markdown: {
+    customComponents: {
+      ...DefaultMarkdownCustomComponents,
+      Utterances,
+      SeeTypo$,
+      SeeTypoDe$
+    }
+  },
+
+
   plugins: [
     codingBlog({
       assets: [
