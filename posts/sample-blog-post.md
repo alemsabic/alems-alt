@@ -46,4 +46,4 @@ Suspendisse vulputate diam vel lorem placerat rutrum. Phasellus mattis justo in 
 >
 > > :InDark
 > >
-> > > :Utterances theme=github-dark
+> > > :Utterances theme=icy-dark
