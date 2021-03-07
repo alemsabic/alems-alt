@@ -18,17 +18,17 @@ import { gatherFootnotes } from '/home/runner/work/x2/x2/.codedoc/node_modules/@
 import { ToCToggle } from '/home/runner/work/x2/x2/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/toggle/index.js';
 import { DarkModeSwitch } from '/home/runner/work/x2/x2/.codedoc/node_modules/@codedoc/core/dist/es6/components/darkmode/index.js';
 import { ConfigTransport } from '/home/runner/work/x2/x2/.codedoc/node_modules/@codedoc/core/dist/es6/transport/config.js';
+import { ArticleCard } from '/home/runner/work/x2/x2/.codedoc/node_modules/@codedoc/coding-blog-plugin/dist/es5/components/article-card/index.js';
 import { SeeTypo } from '/home/runner/work/x2/x2/.codedoc/components/SeeTypo/index.tsx';
 import { ToCPrevNext } from '/home/runner/work/x2/x2/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/prevnext/index.js';
-import { ArticleCard } from '/home/runner/work/x2/x2/.codedoc/node_modules/@codedoc/coding-blog-plugin/dist/es5/components/article-card/index.js';
 
 const components = {
   's+6ji5CwlIGpSyXUTyKvPQ==': ToCToggle,
   'B5pzqxtMuHFatwaUv+7Q2w==': DarkModeSwitch,
   'h/KeWPtS1W9YCrs4FyMdDg==': ConfigTransport,
+  'zx9yWqL4pFC1adbDjZRoxA==': ArticleCard,
   'sc+hql66LNg6hutoXtMSDQ==': SeeTypo,
-  '44R3yaw+PeE8N3BSmTDHHA==': ToCPrevNext,
-  'zx9yWqL4pFC1adbDjZRoxA==': ArticleCard
+  '44R3yaw+PeE8N3BSmTDHHA==': ToCPrevNext
 };
 
 const renderer = getRenderer();
