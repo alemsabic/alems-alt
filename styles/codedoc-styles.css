@@ -562,107 +562,97 @@ body.dark code {
     background: #000;
   }
 }
-@media screen and (max-width: 1024px) {
-  .space-0-0-9[data-target="desktop"] {
-    display: none;
-  }
-}
-@media screen and (min-width: 1025px) {
-  .space-0-0-9[data-target="mobile"] {
-    display: none;
-  }
-}
-  .h-0-0-10.white {
-    color: white;
-  }
-  .h-0-0-10.black {
-    color: black;
-  }
-  .h-0-0-10.primary {
-    color: #000000;
-  }
-  .h-0-0-10.primary-contrast {
-    color: #ffffff;
-  }
-  .h-0-0-10.text {
-    color: #000000;
-  }
-  .h-0-0-10.background {
-    color: #ffffff;
-  }
-  body.dark .h-0-0-10.background {
-    color: #000;
-  }
-  body.dark .h-0-0-10.text {
-    color: #69f0ae;
-  }
-@media (prefers-color-scheme: dark) {
-  body:not(.dark-mode-animate) .h-0-0-10.text {
-    color: #69f0ae;
-  }
-}
-  body.dark .h-0-0-10.primary-contrast {
-    color: #000;
-  }
-  body.dark .h-0-0-10.primary {
-    color: #69f0ae;
-  }
-@media (prefers-color-scheme: dark) {
-  body:not(.dark-mode-animate) .h-0-0-10.primary {
-    color: #69f0ae;
-  }
-}
-  body.dark .hero-0-0-11[data-mode="light"] {
+  body.dark .hero-0-0-9[data-mode="light"] {
     display: none;
   }
 @media (prefers-color-scheme: dark) {
-  body:not(.dark-mode-animate) .hero-0-0-11[data-mode="light"] {
+  body:not(.dark-mode-animate) .hero-0-0-9[data-mode="light"] {
     display: none;
   }
 }
-  body.dark-mode-animate:not(.dark) .hero-0-0-11[data-mode="dark"] {
+  body.dark-mode-animate:not(.dark) .hero-0-0-9[data-mode="dark"] {
     display: none;
   }
 @media (prefers-color-scheme: light) {
-  body:not(.dark-mode-animate) .hero-0-0-11[data-mode="dark"] {
+  body:not(.dark-mode-animate) .hero-0-0-9[data-mode="dark"] {
     display: none;
   }
 }
 @media screen and (max-width: 1024px) {
-  .hero-0-0-11[data-target="desktop"] {
+  .hero-0-0-9[data-target="desktop"] {
     display: none;
   }
 }
 @media screen and (min-width: 1025px) {
-  .hero-0-0-11[data-target="mobile"] {
+  .hero-0-0-9[data-target="mobile"] {
     display: none;
   }
 }
-  .image-0-0-12 {
+  .image-0-0-10 {
     width: 100vw;
     max-width: none;
     margin-left: calc(384px - 50vw);
   }
 @media screen and (max-width: 768px) {
-  .image-0-0-12 {
+  .image-0-0-10 {
     margin-left: -16px;
   }
 }
-  .caption-0-0-13 {
+  .caption-0-0-11 {
     display: block;
     opacity: 0.35;
     font-size: 12px;
     text-align: center;
     transition: opacity .15s;
   }
-  .caption-0-0-13:hover {
+  .caption-0-0-11:hover {
     opacity: 1;
   }
-  .heading-0-0-14 {
+  .h-0-0-12.white {
+    color: white;
+  }
+  .h-0-0-12.black {
+    color: black;
+  }
+  .h-0-0-12.primary {
+    color: #000000;
+  }
+  .h-0-0-12.primary-contrast {
+    color: #ffffff;
+  }
+  .h-0-0-12.text {
+    color: #000000;
+  }
+  .h-0-0-12.background {
+    color: #ffffff;
+  }
+  body.dark .h-0-0-12.background {
+    color: #000;
+  }
+  body.dark .h-0-0-12.text {
+    color: #69f0ae;
+  }
+@media (prefers-color-scheme: dark) {
+  body:not(.dark-mode-animate) .h-0-0-12.text {
+    color: #69f0ae;
+  }
+}
+  body.dark .h-0-0-12.primary-contrast {
+    color: #000;
+  }
+  body.dark .h-0-0-12.primary {
+    color: #69f0ae;
+  }
+@media (prefers-color-scheme: dark) {
+  body:not(.dark-mode-animate) .h-0-0-12.primary {
+    color: #69f0ae;
+  }
+}
+  .heading-0-0-13 {
     cursor: pointer;
     position: relative;
   }
-  .anchor-0-0-15 {
+  .anchor-0-0-14 {
     top: 0;
     left: -32px;
     bottom: 0;
@@ -674,18 +664,28 @@ body.dark code {
     align-items: center;
     padding-right: 8px;
   }
-  .heading-0-0-14:hover .anchor-0-0-15 {
+  .heading-0-0-13:hover .anchor-0-0-14 {
     opacity: 0.5;
     transform: none;
   }
 @media screen and (max-width: 1200px) {
-  .anchor-0-0-15 {
+  .anchor-0-0-14 {
     display: none;
   }
 }
-  .heading-0-0-14:hover .anchor-0-0-15:hover {
+  .heading-0-0-13:hover .anchor-0-0-14:hover {
     opacity: 1;
   }
-  .utterancesTransparentIframe-0-0-16 iframe.utterances-frame {
+  .utterancesTransparentIframe-0-0-15 iframe.utterances-frame {
     background: transparent;
   }
+@media screen and (max-width: 1024px) {
+  .space-0-0-16[data-target="desktop"] {
+    display: none;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .space-0-0-16[data-target="mobile"] {
+    display: none;
+  }
+}
