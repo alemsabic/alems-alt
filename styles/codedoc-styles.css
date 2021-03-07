@@ -658,3 +658,34 @@ body.dark code {
   .caption-0-0-13:hover {
     opacity: 1;
   }
+  .heading-0-0-14 {
+    cursor: pointer;
+    position: relative;
+  }
+  .anchor-0-0-15 {
+    top: 0;
+    left: -32px;
+    bottom: 0;
+    display: flex;
+    opacity: 0;
+    position: absolute;
+    transform: translateX(-8px);
+    transition: opacity .1s, transform .1s;
+    align-items: center;
+    padding-right: 8px;
+  }
+  .heading-0-0-14:hover .anchor-0-0-15 {
+    opacity: 0.5;
+    transform: none;
+  }
+@media screen and (max-width: 1200px) {
+  .anchor-0-0-15 {
+    display: none;
+  }
+}
+  .heading-0-0-14:hover .anchor-0-0-15:hover {
+    opacity: 1;
+  }
+  .utterancesTransparentIframe-0-0-16 iframe.utterances-frame {
+    background: transparent;
+  }
