@@ -7,7 +7,7 @@ export function SeeTypoDe(
   _: any,
   renderer: RendererLike<any, any>,
 ) {
-  const hrefPrefix = "https://github.com/alemsabic/x2/blob/master/docs/md"
+  const hrefPrefix = "https://github.com/alemsabic/x2/blob/master/posts"
   const pathname = window.location.pathname
   const hrefPostfix = ".md"
   const href = hrefPrefix + pathname + hrefPostfix
