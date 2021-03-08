@@ -32,7 +32,7 @@ body.dark .darklight-0-0-1>.dark {
   }
 }
   .button-0-0-2 {
-    color: #ffffff;
+    color: #f0f2f2;
     border: 2px solid #000000;
     cursor: pointer;
     height: 40px;
@@ -60,7 +60,7 @@ body.dark .darklight-0-0-1>.dark {
     min-width: 0;
   }
   .button-0-0-2[disabled] {
-    color: #ffffff;
+    color: #f0f2f2;
     border: rgba(0, 0, 0, 0.35);
     background: rgba(0, 0, 0, 0.35);
   }
@@ -124,7 +124,7 @@ a.button-0-0-2.icon {
     display: flex;
     z-index: 102;
     position: fixed;
-    background: rgba(255, 255, 255, 0.85);
+    background: rgba(240, 242, 242, 0.85);
     box-shadow: 0 -2px 6px rgba(0, 0, 0, .03);
     align-items: center;
     backdrop-filter: blur(12px);
@@ -200,7 +200,7 @@ a.button-0-0-2.icon {
     z-index: 101;
     position: fixed;
     transform: translateX(-50vw);
-    background: rgba(255,255,255,0.4);
+    background: rgba(240,242,242,0.4);
     border-right: 1px solid rgba(0,0,0,0.2);
     flex-direction: column;
     padding-bottom: 64px;
@@ -247,11 +247,11 @@ a.button-0-0-2.icon {
     transition: border-color .3s, background .3s;
   }
   .toc-0-0-5 a:hover {
-    background: #ffffff;
+    background: #f0f2f2;
     text-decoration: none;
   }
   .toc-0-0-5 a.current {
-    background: #ffffff;
+    background: #f0f2f2;
     border-color: rgba(0,0,0,0.2);
     margin-right: 0;
     border-top-right-radius: 0;
@@ -374,7 +374,7 @@ body {
   width: 100vw;
   margin: 0;
   padding: 0;
-  background: #ffffff;
+  background: #f0f2f2;
   overflow-x: hidden;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
@@ -425,7 +425,7 @@ table td {
   border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 table tr:nth-child(even) {
-  background: #ffffff;
+  background: #f0f2f2;
   border-radius: 3px;
 }
 table tr:last-child > td {
@@ -487,7 +487,7 @@ blockquote {
   margin: 0;
   padding: 16px 40px;
   position: relative;
-  background: #ffffff;
+  background: #f0f2f2;
   border-radius: 3px;
 }
 body.dark-mode-animate blockquote {
@@ -546,7 +546,7 @@ code {
   color: #000000;
   padding: 4px;
   font-size: .85em;
-  background: #ffffff;
+  background: #f0f2f2;
   border-radius: 3px;
 }
 body.dark-mode-animate code {
@@ -582,13 +582,13 @@ body.dark code {
     color: #000000;
   }
   .h-0-0-10.primary-contrast {
-    color: #ffffff;
+    color: #f0f2f2;
   }
   .h-0-0-10.text {
     color: #000000;
   }
   .h-0-0-10.background {
-    color: #ffffff;
+    color: #f0f2f2;
   }
   body.dark .h-0-0-10.background {
     color: #000;
