@@ -32,8 +32,8 @@ body.dark .darklight-0-0-1>.dark {
   }
 }
   .button-0-0-2 {
-    color: #f0f2f2;
-    border: 2px solid #000000;
+    color: rgba(215,217,217);
+    border: 2px solid rgba(0,0,0);
     cursor: pointer;
     height: 40px;
     margin: 8px;
@@ -42,7 +42,7 @@ body.dark .darklight-0-0-1>.dark {
     padding: 4px 16px;
     font-size: 16px;
     min-width: 96px;
-    background: #000000;
+    background: rgba(0,0,0);
     align-items: center;
     margin-right: 0;
     border-radius: 3px;
@@ -60,7 +60,7 @@ body.dark .darklight-0-0-1>.dark {
     min-width: 0;
   }
   .button-0-0-2[disabled] {
-    color: #f0f2f2;
+    color: rgba(215,217,217);
     border: rgba(0, 0, 0, 0.35);
     background: rgba(0, 0, 0, 0.35);
   }
@@ -82,7 +82,7 @@ body.dark .darklight-0-0-1>.dark {
   }
 }
   .button-0-0-2:hover:not([disabled]) {
-    color: #000000;
+    color: rgba(0,0,0);
     background: transparent;
     text-decoration: none;
   }
@@ -124,7 +124,7 @@ a.button-0-0-2.icon {
     display: flex;
     z-index: 102;
     position: fixed;
-    background: rgba(240, 242, 242, 0.85);
+    background: rgba(215, 217, 217, 0.85);
     box-shadow: 0 -2px 6px rgba(0, 0, 0, .03);
     align-items: center;
     backdrop-filter: blur(12px);
@@ -200,7 +200,7 @@ a.button-0-0-2.icon {
     z-index: 101;
     position: fixed;
     transform: translateX(-50vw);
-    background: rgba(240,242,242,0.4);
+    background: rgba(215,217,217,0.4);
     border-right: 1px solid rgba(0,0,0,0.2);
     flex-direction: column;
     padding-bottom: 64px;
@@ -247,11 +247,11 @@ a.button-0-0-2.icon {
     transition: border-color .3s, background .3s;
   }
   .toc-0-0-5 a:hover {
-    background: #f0f2f2;
+    background: rgba(215,217,217);
     text-decoration: none;
   }
   .toc-0-0-5 a.current {
-    background: #f0f2f2;
+    background: rgba(215,217,217);
     border-color: rgba(0,0,0,0.2);
     margin-right: 0;
     border-top-right-radius: 0;
@@ -317,7 +317,7 @@ a.button-0-0-2.icon {
   }
 }
   .contentnav-0-0-8 a {
-    color: #000000;
+    color: rgba(0,0,0);
     display: block;
     opacity: 0.2;
     text-decoration: none;
@@ -346,7 +346,7 @@ a.button-0-0-2.icon {
     transition: color .3s, opacity .3s;
   }
   .contentnav-0-0-8 a:hover, .contentnav-0-0-8 a.active {
-    color: #000000;
+    color: rgba(0,0,0);
     opacity: 1;
   }
   .contentnav-0-0-8 a.h2 {
@@ -370,11 +370,11 @@ a.button-0-0-2.icon {
   -webkit-tap-highlight-color: transparent;
 }
 body {
-  color: #000000;
+  color: rgba(0,0,0);
   width: 100vw;
   margin: 0;
   padding: 0;
-  background: #f0f2f2;
+  background: rgba(215,217,217);
   overflow-x: hidden;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
@@ -383,7 +383,7 @@ body.dark-mode-animate {
   transition: color .3s, background .3s;
 }
 a {
-  color: #000000;
+  color: rgba(0,0,0);
 }
 a:hover {
   text-decoration: underline;
@@ -425,7 +425,7 @@ table td {
   border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 table tr:nth-child(even) {
-  background: #f0f2f2;
+  background: rgba(215,217,217);
   border-radius: 3px;
 }
 table tr:last-child > td {
@@ -483,11 +483,11 @@ body.dark hr {
   margin-right: 32px;
 }
 blockquote {
-  color: #000000;
+  color: rgba(0,0,0);
   margin: 0;
   padding: 16px 40px;
   position: relative;
-  background: #f0f2f2;
+  background: rgba(215,217,217);
   border-radius: 3px;
 }
 body.dark-mode-animate blockquote {
@@ -543,10 +543,10 @@ iframe {
   border-radius: 3px;
 }
 code {
-  color: #000000;
+  color: rgba(0,0,0);
   padding: 4px;
   font-size: .85em;
-  background: #f0f2f2;
+  background: rgba(215,217,217);
   border-radius: 3px;
 }
 body.dark-mode-animate code {
@@ -579,16 +579,16 @@ body.dark code {
     color: black;
   }
   .h-0-0-10.primary {
-    color: #000000;
+    color: rgba(0,0,0);
   }
   .h-0-0-10.primary-contrast {
-    color: #f0f2f2;
+    color: rgba(215,217,217);
   }
   .h-0-0-10.text {
-    color: #000000;
+    color: rgba(0,0,0);
   }
   .h-0-0-10.background {
-    color: #f0f2f2;
+    color: rgba(215,217,217);
   }
   body.dark .h-0-0-10.background {
     color: #000;
