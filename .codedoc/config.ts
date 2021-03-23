@@ -24,7 +24,7 @@ export const config = /*#__PURE__*/configuration({
   },
   page: {
     title: {
-      base: 'x2 alems.org',
+      base: 'x.alems.org',
       connector: ' > ',
     },
     meta: {                              // --> meta tags of each page
@@ -58,7 +58,7 @@ export const config = /*#__PURE__*/configuration({
   ],
   misc: {
     github: {
-      repo: 'x2',         // --> change this to your github repo
+      repo: 'x.alemsorg',         // --> change this to your github repo
       user: 'alemsabic'         // --> change this to your github username
     }
   }

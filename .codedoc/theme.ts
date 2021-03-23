@@ -6,11 +6,11 @@ export const theme = /*#__PURE__*/createTheme({
 
   light: {
     background: 'rgba(215,217,217)',           // --> CSS color string, background of the page
-    text: 'rgba(0,0,0)',            // --> CSS color string, color of text
-    primary: 'rgba(0,0,0)',             // --> CSS color string, primary color (for buttons, links, etc)
+    text: 'rgba(0,0,139)',            // --> CSS color string, color of text
+    primary: 'rgba(0,0,139)',             // --> CSS color string, primary color (for buttons, links, etc)
     primaryContrast: 'rgba(215,217,217)',      // --> CSS color string, text color on primary background (e.g. buttons)
     border: 'rgba(0,0,0,0.2)',               // --> CSS color string, border colors
-    code: 'rgba(0,0,0)',                  // --> CSS color string, in-text code color
+    code: 'rgba(0,0,139)',                  // --> CSS color string, in-text code color
   },
 
   dark: {
@@ -32,7 +32,7 @@ export const theme = /*#__PURE__*/createTheme({
 
     light: {
       background: 'rgba(215,217,217)',
-      text: 'rgba(0,0,0)',
+      text: 'rgba(0,0,139)',
       border: 'rgba(0,0,0,0.2)',
     },
   },
