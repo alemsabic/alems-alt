@@ -33,7 +33,7 @@ body.dark .darklight-0-0-1>.dark {
 }
   .button-0-0-2 {
     color: rgba(215,217,217);
-    border: 2px solid rgba(0,0,0);
+    border: 2px solid rgba(0,0,139);
     cursor: pointer;
     height: 40px;
     margin: 8px;
@@ -42,7 +42,7 @@ body.dark .darklight-0-0-1>.dark {
     padding: 4px 16px;
     font-size: 16px;
     min-width: 96px;
-    background: rgba(0,0,0);
+    background: rgba(0,0,139);
     align-items: center;
     margin-right: 0;
     border-radius: 3px;
@@ -61,8 +61,8 @@ body.dark .darklight-0-0-1>.dark {
   }
   .button-0-0-2[disabled] {
     color: rgba(215,217,217);
-    border: rgba(0, 0, 0, 0.35);
-    background: rgba(0, 0, 0, 0.35);
+    border: rgba(0, 0, 139, 0.35);
+    background: rgba(0, 0, 139, 0.35);
   }
   body.dark .button-0-0-2 {
     color: #000;
@@ -82,7 +82,7 @@ body.dark .darklight-0-0-1>.dark {
   }
 }
   .button-0-0-2:hover:not([disabled]) {
-    color: rgba(0,0,0);
+    color: rgba(0,0,139);
     background: transparent;
     text-decoration: none;
   }
@@ -317,7 +317,7 @@ a.button-0-0-2.icon {
   }
 }
   .contentnav-0-0-8 a {
-    color: rgba(0,0,0);
+    color: rgba(0,0,139);
     display: block;
     opacity: 0.2;
     text-decoration: none;
@@ -346,7 +346,7 @@ a.button-0-0-2.icon {
     transition: color .3s, opacity .3s;
   }
   .contentnav-0-0-8 a:hover, .contentnav-0-0-8 a.active {
-    color: rgba(0,0,0);
+    color: rgba(0,0,139);
     opacity: 1;
   }
   .contentnav-0-0-8 a.h2 {
@@ -370,7 +370,7 @@ a.button-0-0-2.icon {
   -webkit-tap-highlight-color: transparent;
 }
 body {
-  color: rgba(0,0,0);
+  color: rgba(0,0,139);
   width: 100vw;
   margin: 0;
   padding: 0;
@@ -383,7 +383,7 @@ body.dark-mode-animate {
   transition: color .3s, background .3s;
 }
 a {
-  color: rgba(0,0,0);
+  color: rgba(0,0,139);
 }
 a:hover {
   text-decoration: underline;
@@ -419,7 +419,7 @@ table th, table td {
   text-align: left;
 }
 table th {
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid #000055;
 }
 table td {
   border-bottom: 1px solid rgba(0,0,0,0.2);
@@ -483,7 +483,7 @@ body.dark hr {
   margin-right: 32px;
 }
 blockquote {
-  color: rgba(0,0,0);
+  color: rgba(0,0,139);
   margin: 0;
   padding: 16px 40px;
   position: relative;
@@ -543,7 +543,7 @@ iframe {
   border-radius: 3px;
 }
 code {
-  color: rgba(0,0,0);
+  color: rgba(0,0,139);
   padding: 4px;
   font-size: .85em;
   background: rgba(215,217,217);
@@ -579,13 +579,13 @@ body.dark code {
     color: black;
   }
   .h-0-0-10.primary {
-    color: rgba(0,0,0);
+    color: rgba(0,0,139);
   }
   .h-0-0-10.primary-contrast {
     color: rgba(215,217,217);
   }
   .h-0-0-10.text {
-    color: rgba(0,0,0);
+    color: rgba(0,0,139);
   }
   .h-0-0-10.background {
     color: rgba(215,217,217);
