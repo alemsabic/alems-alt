@@ -5,16 +5,16 @@ export const theme = /*#__PURE__*/createTheme({
 
 
   light: {
-    background: 'rgba(215,217,217)',           // --> CSS color string, background of the page
-    text: 'rgba(0,0,139)',            // --> CSS color string, color of text
-    primary: 'rgba(0,0,139)',             // --> CSS color string, primary color (for buttons, links, etc)
-    primaryContrast: 'rgba(215,217,217)',      // --> CSS color string, text color on primary background (e.g. buttons)
+    background: 'rgba(198,198,198)',           // --> CSS color string, background of the page
+    text: 'rgba(51,51,51)',            // --> CSS color string, color of text
+    primary: 'rgba(51,51,51)',             // --> CSS color string, primary color (for buttons, links, etc)
+    primaryContrast: 'rgba(198,198,198)',      // --> CSS color string, text color on primary background (e.g. buttons)
     border: 'rgba(0,0,0,0.2)',               // --> CSS color string, border colors
-    code: 'rgba(0,0,139)',                  // --> CSS color string, in-text code color
+    code: 'rgba(51,51,51)',                  // --> CSS color string, in-text code color
   },
 
   dark: {
-    background: '#000',           // --> CSS color string, background of the page
+    background: 'rgba(51,51,51)',           // --> CSS color string, background of the page
     text: '#69f0ae',              // --> CSS color string, color of text
     primary: '#69f0ae',            // --> CSS color string, primary color (for buttons, links, etc)
     primaryContrast: '#000',  // --> CSS color string, text color on primary background (e.g. buttons)
@@ -25,14 +25,14 @@ export const theme = /*#__PURE__*/createTheme({
 
   quote: {
     dark: {
-      background: '#000',
+      background: 'rgba(51,51,51)',
       text: '#69f0ae', 
       border: 'rgba(105,240,174,0.4)',
     },
 
     light: {
-      background: 'rgba(215,217,217)',
-      text: 'rgba(0,0,139)',
+      background: 'rgba(198,198,198)',
+      text: 'rgba(51,51,51)',
       border: 'rgba(0,0,0,0.2)',
     },
   },

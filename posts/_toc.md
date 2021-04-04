@@ -1,4 +1,4 @@
-[X<sup>2</sup> ALEMS.ORG](/)
+[X.ALEMS.ORG](/)
 [Kuda ideš?](/sample-blog-post)
 
 <br><br>

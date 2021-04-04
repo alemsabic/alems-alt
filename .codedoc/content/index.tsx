@@ -19,21 +19,42 @@ export function content(_content: HTMLElement, toc: HTMLElement, renderer: Rende
 
           header={<Header {...config}/>}
           footer={<Footer {...config}/>}
-          toc={<ToC>{toc}</ToC>}>
+          toc={
+            <ToC default="open"
+            search={
+                  config.misc?.github ? 
+                  <GithubSearch$
+                    repo={config.misc.github.repo} 
+                    user={config.misc.github.user}
+                    root={config.src.base}
+                    pick={config.src.pick.source}
+                    drop={config.src.drop.source}
+                  /> : false
+            }>{toc}</ToC>
+          }>
 
 <style>
 {`
-h2 {line-height:1.3; text-transform:uppercase;}
-h3 {line-height:1.3; text-transform:uppercase;}
-h1 p {line-height:1.3; text-transform:uppercase; text-align:center;}
+h2 {line-height:1.3;}
+h3 {line-height:1.3;}
+h1 {line-height:1.3; text-transform:uppercase;}
 
-
-h1{font-size: calc(1.3rem + 1.8vw);}
-h2 {font-size: calc(1.15rem + 1.2vw);}
+h1{font-size: calc(2rem + 1.8vw);}
+h2 {font-size: calc(1.2rem + 1.1vw);}
 h3 {font-size: calc(0.9rem + 0.7vw);}
-.container p, .container ol, .container ul {font-size: calc(0.9rem + 0.25vw);}
-strong {text-transform:uppercase;}
+.container p, .container ol, .container ul {font-size: calc(0.9rem + 0.15vw);}
 
+.content-0-0-9 { 
+/* this will hide the scrollbar in mozilla based browsers */
+overflow: -moz-scrollbars-none;
+/* this will hide the scrollbar in internet explorers */
+-ms-overflow-style: none;
+}
+
+.content-0-0-9::-webkit-scrollbar { 
+  width: 0 !important;
+  display: none; 
+}
 
 .container {line-height:1.8;}
 .inside a.icon-font {font-size:36px;}

@@ -10,6 +10,9 @@ import { Utterances } from './components/utterances';
 import { SeeTypo$ } from './components/SeeTypo';
 import { SeeTypoDe$ } from './components/SeeTypoDe';
 
+
+
+
 export const config = /*#__PURE__*/configuration({
   theme,
   src: {
@@ -31,11 +34,34 @@ export const config = /*#__PURE__*/configuration({
       subject: 'Sarajevski žargon',           // --> the subject meta tag for each page
       description: 'Stranica Alema Šabića. Uz pomoć nekih drugih budala.',          // --> description meta tag for each page
       keywords: ['test','test', 'text'],                        
-      themeColor: '#000',             // --> the browser bar color of your docs
+      themeColor: '#c6c6c6',             // --> the browser bar color of your docs
       appleMobileWebStatusBarStyle:      // --> same as above, but for iOS Safari
         'black-translucent',
         
     },
+    fonts: {                             // --> font settings
+      text: {                            // --> font used for texts
+        url:                             // --> URL of font used for texts
+          'https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,600;1,400&display=swap',
+        name: 'IBM Plex Mono',                    // --> name of font used for texts
+        fallback: 
+        `'Courier New', Courier, monospace`           // --> the fallback font for texts
+      },
+      code: {                            // --> font used for codes
+        url:                             // --> URL of font used for codes
+          'https://fonts.googleapis.com/css?family=Source+Code+Pro:400&display=swap',
+        name: 'Source Code Pro',         // --> name of the font used for codes
+        fallback:                        // --> fallback font for codes
+          `'Courier New', Courier, monospace`
+      },
+      icon: {                            // --> the icon font
+        url:                             // --> url of hte icon font (and perhaps the outline icon font)
+          'https://fonts.googleapis.com/icon?family=Material+Icons%7CMaterial+Icons+Outlined',
+        name: 'Material Icons',          // --> name of the icon font
+        outline:                         // --> name of the outline icon font
+          'Material Icons Outlined'
+      }
+    }, 
   },
 
   markdown: {
