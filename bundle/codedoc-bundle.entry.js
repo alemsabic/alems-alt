@@ -15,18 +15,18 @@ import { tocHighlight } from '/home/runner/work/x.alemsorg/x.alemsorg/.codedoc/n
 import { postNavSearch } from '/home/runner/work/x.alemsorg/x.alemsorg/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/search/post-nav/index.js';postNavSearch();
 import { copyLineLinks } from '/home/runner/work/x.alemsorg/x.alemsorg/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/line-links/copy-line-link.js';copyLineLinks();
 import { gatherFootnotes } from '/home/runner/work/x.alemsorg/x.alemsorg/.codedoc/node_modules/@codedoc/core/dist/es6/components/footnote/gather-footnotes.js';gatherFootnotes();
+import { GithubSearch } from '/home/runner/work/x.alemsorg/x.alemsorg/.codedoc/node_modules/@codedoc/core/dist/es6/components/misc/github/search.js';
 import { ToCToggle } from '/home/runner/work/x.alemsorg/x.alemsorg/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/toggle/index.js';
 import { DarkModeSwitch } from '/home/runner/work/x.alemsorg/x.alemsorg/.codedoc/node_modules/@codedoc/core/dist/es6/components/darkmode/index.js';
 import { ConfigTransport } from '/home/runner/work/x.alemsorg/x.alemsorg/.codedoc/node_modules/@codedoc/core/dist/es6/transport/config.js';
-import { ArticleCard } from '/home/runner/work/x.alemsorg/x.alemsorg/.codedoc/node_modules/@codedoc/coding-blog-plugin/dist/es5/components/article-card/index.js';
 import { SeeTypo } from '/home/runner/work/x.alemsorg/x.alemsorg/.codedoc/components/SeeTypo/index.tsx';
 import { ToCPrevNext } from '/home/runner/work/x.alemsorg/x.alemsorg/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/prevnext/index.js';
 
 const components = {
+  'Ka0FgJbIEHVM7SRvuKlfIQ==': GithubSearch,
   'uAUaSVWNKohnV50x6KROCw==': ToCToggle,
   'kcua1y/JUzPuZS2FaCDICA==': DarkModeSwitch,
   'cWy+whMafGBknb2u8H0CNA==': ConfigTransport,
-  'HAN3BvbdoQlt+qRSciaZZw==': ArticleCard,
   '+eiMXi+vWAyHtjAyaHWxRg==': SeeTypo,
   'dUcR/fK5mQVwT54l7ZYJ2w==': ToCPrevNext
 };

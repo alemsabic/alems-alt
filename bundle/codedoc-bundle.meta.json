@@ -83,6 +83,11 @@
   ],
   "components": [
     {
+      "name": "GithubSearch",
+      "filename": "/home/runner/work/x.alemsorg/x.alemsorg/.codedoc/node_modules/@codedoc/core/dist/es6/components/misc/github/search.js",
+      "hash": "Ka0FgJbIEHVM7SRvuKlfIQ=="
+    },
+    {
       "name": "ToCToggle",
       "filename": "/home/runner/work/x.alemsorg/x.alemsorg/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/toggle/index.js",
       "hash": "uAUaSVWNKohnV50x6KROCw=="
@@ -96,11 +101,6 @@
       "name": "ConfigTransport",
       "filename": "/home/runner/work/x.alemsorg/x.alemsorg/.codedoc/node_modules/@codedoc/core/dist/es6/transport/config.js",
       "hash": "cWy+whMafGBknb2u8H0CNA=="
-    },
-    {
-      "name": "ArticleCard",
-      "filename": "/home/runner/work/x.alemsorg/x.alemsorg/.codedoc/node_modules/@codedoc/coding-blog-plugin/dist/es5/components/article-card/index.js",
-      "hash": "HAN3BvbdoQlt+qRSciaZZw=="
     },
     {
       "name": "SeeTypo",
