@@ -608,71 +608,11 @@ body.dark code {
   .caption-0-0-11:hover {
     opacity: 1;
   }
-  .footnotes-0-0-12>div {
-    display: flex;
-  }
-  .footnotes-0-0-12>div>span {
-    font-weight: bold;
-    margin-right: 16px;
-  }
-  .footnotes-0-0-12>div>marker>p {
-    margin: 0;
-  }
-@media screen and (max-width: 1024px) {
-  .space-0-0-13[data-target="desktop"] {
-    display: none;
-  }
-}
-@media screen and (min-width: 1025px) {
-  .space-0-0-13[data-target="mobile"] {
-    display: none;
-  }
-}
-  .h-0-0-14.white {
-    color: white;
-  }
-  .h-0-0-14.black {
-    color: black;
-  }
-  .h-0-0-14.primary {
-    color: rgba(51,51,51);
-  }
-  .h-0-0-14.primary-contrast {
-    color: rgba(198,198,198);
-  }
-  .h-0-0-14.text {
-    color: rgba(51,51,51);
-  }
-  .h-0-0-14.background {
-    color: rgba(198,198,198);
-  }
-  body.dark .h-0-0-14.background {
-    color: rgba(51,51,51);
-  }
-  body.dark .h-0-0-14.text {
-    color: #69f0ae;
-  }
-@media (prefers-color-scheme: dark) {
-  body:not(.dark-mode-animate) .h-0-0-14.text {
-    color: #69f0ae;
-  }
-}
-  body.dark .h-0-0-14.primary-contrast {
-    color: #000;
-  }
-  body.dark .h-0-0-14.primary {
-    color: #69f0ae;
-  }
-@media (prefers-color-scheme: dark) {
-  body:not(.dark-mode-animate) .h-0-0-14.primary {
-    color: #69f0ae;
-  }
-}
-  .heading-0-0-15 {
+  .heading-0-0-12 {
     cursor: pointer;
     position: relative;
   }
-  .anchor-0-0-16 {
+  .anchor-0-0-13 {
     top: 0;
     left: -32px;
     bottom: 0;
@@ -684,18 +624,38 @@ body.dark code {
     align-items: center;
     padding-right: 8px;
   }
-  .heading-0-0-15:hover .anchor-0-0-16 {
+  .heading-0-0-12:hover .anchor-0-0-13 {
     opacity: 0.5;
     transform: none;
   }
 @media screen and (max-width: 1200px) {
-  .anchor-0-0-16 {
+  .anchor-0-0-13 {
     display: none;
   }
 }
-  .heading-0-0-15:hover .anchor-0-0-16:hover {
+  .heading-0-0-12:hover .anchor-0-0-13:hover {
     opacity: 1;
   }
-  .utterancesTransparentIframe-0-0-17 iframe.utterances-frame {
+  .footnotes-0-0-14>div {
+    display: flex;
+  }
+  .footnotes-0-0-14>div>span {
+    font-weight: bold;
+    margin-right: 16px;
+  }
+  .footnotes-0-0-14>div>marker>p {
+    margin: 0;
+  }
+@media screen and (max-width: 1024px) {
+  .space-0-0-15[data-target="desktop"] {
+    display: none;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .space-0-0-15[data-target="mobile"] {
+    display: none;
+  }
+}
+  .utterancesTransparentIframe-0-0-16 iframe.utterances-frame {
     background: transparent;
   }
