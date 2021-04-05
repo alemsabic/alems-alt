@@ -1,6 +1,6 @@
-[X.ALEMS.ORG](/)
-[Kuda ideš?](/sample-blog-post)
+[x.alems.org](/)
+[ne kontam](/schnall-ich-nicht)
 
 <br><br>
 
-[ALEMS.ORG](https://www.alems.org)
+[alems.org](https://www.alems.org)
