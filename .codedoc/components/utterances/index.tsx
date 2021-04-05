@@ -18,7 +18,7 @@ export function Utterances(
   let theme = 'github-light';
   if (options && options.theme && options.theme !== '') theme = options.theme;
   const attributes = {
-    'data-repo': 'alemsabic/x2',
+    'data-repo': 'alemsabic/x.alemsorg',
     'data-issue-term': 'pathname',
     'data-label': '💬comments',
     'data-theme': theme,
