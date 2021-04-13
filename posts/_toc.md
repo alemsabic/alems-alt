@@ -3,4 +3,8 @@
 
 <br><br>
 
-[alems.org](https://www.alems.org)
+
+[alems.org | rječnik sarajevskog žargona](https://www.alems.org)
+
+[nekontam.alems.org | časopis za teške intelektualce](https://nekontam.alems.org)
+
