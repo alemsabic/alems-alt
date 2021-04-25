@@ -56,7 +56,7 @@ overflow: -moz-scrollbars-none;
   display: none; 
 }
 
-.container {line-height:1.6;}
+.container {line-height:1.8;}
 .inside a.icon-font {font-size:36px;}
 .inside a.icon-font {
   opacity: 0.35;
@@ -105,6 +105,7 @@ body h1::before {
   -moz-column-gap: 32px;
   column-gap: 32px;
   font-size: calc(.7rem + 0.1vw);
+  line-height:1.8;
 }
 `}
 </style>
