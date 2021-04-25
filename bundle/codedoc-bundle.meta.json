@@ -2,120 +2,115 @@
   "init": [
     {
       "name": "initJssCs",
-      "filename": "/home/runner/work/x.alemsorg/x.alemsorg/.codedoc/node_modules/@codedoc/core/dist/es6/transport/setup-jss.js",
-      "hash": "ndpTUUezZ/evRHybOAdseQ=="
+      "filename": "/home/runner/work/alems/alems/.codedoc/node_modules/@codedoc/core/dist/es6/transport/setup-jss.js",
+      "hash": "yCzw0ODrgCgLPrTjfoJ54w=="
     },
     {
       "name": "installTheme",
-      "filename": "/home/runner/work/x.alemsorg/x.alemsorg/.codedoc/content/theme.ts",
-      "hash": "8IqhsDQ3YP8ZbdnmRIPpyg=="
+      "filename": "/home/runner/work/alems/alems/.codedoc/content/theme.ts",
+      "hash": "0FjaJV2bD7+/+vJAhXYzIQ=="
     },
     {
       "name": "countCards",
-      "filename": "/home/runner/work/x.alemsorg/x.alemsorg/.codedoc/node_modules/@codedoc/coding-blog-plugin/dist/es5/components/article-card/count-cards.js",
-      "hash": "flTGzXJeQCgWnPdEIx+c/w=="
+      "filename": "/home/runner/work/alems/alems/.codedoc/node_modules/@codedoc/coding-blog-plugin/dist/es5/components/article-card/count-cards.js",
+      "hash": "tDGNjNsP1TR7yHFFRgWOkQ=="
     },
     {
       "name": "codeSelection",
-      "filename": "/home/runner/work/x.alemsorg/x.alemsorg/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/selection.js",
-      "hash": "M9XKdvuiWojRuNHQB9nDBg=="
+      "filename": "/home/runner/work/alems/alems/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/selection.js",
+      "hash": "Ol6+DC34T4urg4dWkLXZqg=="
     },
     {
       "name": "sameLineLengthInCodes",
-      "filename": "/home/runner/work/x.alemsorg/x.alemsorg/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/same-line-length.js",
-      "hash": "ND2eLDs7NDnCP7NJ0Z4+Uw=="
+      "filename": "/home/runner/work/alems/alems/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/same-line-length.js",
+      "hash": "ZIoTzXeJEFiJDmaL+C9yug=="
     },
     {
       "name": "initHintBox",
-      "filename": "/home/runner/work/x.alemsorg/x.alemsorg/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/line-hint/index.js",
-      "hash": "/fS5tmy0Ad33PDy8mmTazA=="
+      "filename": "/home/runner/work/alems/alems/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/line-hint/index.js",
+      "hash": "1KRY0joQsUq5+YCbWWxBog=="
     },
     {
       "name": "initCodeLineRef",
-      "filename": "/home/runner/work/x.alemsorg/x.alemsorg/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/line-ref/index.js",
-      "hash": "lQ+zz1KLm7E7yf+5l/E4Wg=="
+      "filename": "/home/runner/work/alems/alems/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/line-ref/index.js",
+      "hash": "WOD4ybDo/3nfdzvlaNVC5w=="
     },
     {
       "name": "initSmartCopy",
-      "filename": "/home/runner/work/x.alemsorg/x.alemsorg/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/smart-copy.js",
-      "hash": "45cCVNllphPZIwN8PFzepQ=="
+      "filename": "/home/runner/work/alems/alems/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/smart-copy.js",
+      "hash": "qVLCt+FdIyXdJTDQfNNQIA=="
     },
     {
       "name": "copyHeadings",
-      "filename": "/home/runner/work/x.alemsorg/x.alemsorg/.codedoc/node_modules/@codedoc/core/dist/es6/components/heading/copy-headings.js",
-      "hash": "yHB4evZqhAS/IwLyXMURFg=="
+      "filename": "/home/runner/work/alems/alems/.codedoc/node_modules/@codedoc/core/dist/es6/components/heading/copy-headings.js",
+      "hash": "T2mBoiEFMS09o1+UedOucA=="
     },
     {
       "name": "contentNavHighlight",
-      "filename": "/home/runner/work/x.alemsorg/x.alemsorg/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/contentnav/highlight.js",
-      "hash": "UwEVKBaIDF7biIFOCIvDOQ=="
+      "filename": "/home/runner/work/alems/alems/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/contentnav/highlight.js",
+      "hash": "SmQhNyJLyhUz7lM001rxdw=="
     },
     {
       "name": "loadDeferredIFrames",
-      "filename": "/home/runner/work/x.alemsorg/x.alemsorg/.codedoc/node_modules/@codedoc/core/dist/es6/transport/deferred-iframe.js",
-      "hash": "rXuNvVvYDp7ncXDhX+jrww=="
+      "filename": "/home/runner/work/alems/alems/.codedoc/node_modules/@codedoc/core/dist/es6/transport/deferred-iframe.js",
+      "hash": "fkb+MXraY+uE2HDYKEvRaQ=="
     },
     {
       "name": "smoothLoading",
-      "filename": "/home/runner/work/x.alemsorg/x.alemsorg/.codedoc/node_modules/@codedoc/core/dist/es6/transport/smooth-loading.js",
-      "hash": "7ZBN9OoUfgNcgYMBX9kW+g=="
+      "filename": "/home/runner/work/alems/alems/.codedoc/node_modules/@codedoc/core/dist/es6/transport/smooth-loading.js",
+      "hash": "n97frkPqobz5PR3JOv5q2Q=="
     },
     {
       "name": "tocHighlight",
-      "filename": "/home/runner/work/x.alemsorg/x.alemsorg/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/toc-highlight.js",
-      "hash": "4rIcYtLDCe4cQmOiW+r9JA=="
+      "filename": "/home/runner/work/alems/alems/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/toc-highlight.js",
+      "hash": "XPGQjnnH9OdgUCaZKNnP6A=="
     },
     {
       "name": "postNavSearch",
-      "filename": "/home/runner/work/x.alemsorg/x.alemsorg/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/search/post-nav/index.js",
-      "hash": "To1IoIY9kaszj7qJe6ie9g=="
+      "filename": "/home/runner/work/alems/alems/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/search/post-nav/index.js",
+      "hash": "hP8nJk4MwrWk5X3pBjmp2A=="
     },
     {
       "name": "copyLineLinks",
-      "filename": "/home/runner/work/x.alemsorg/x.alemsorg/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/line-links/copy-line-link.js",
-      "hash": "UKV20ak5DuSjKiN3CiwceA=="
+      "filename": "/home/runner/work/alems/alems/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/line-links/copy-line-link.js",
+      "hash": "qYNdi9CKnJgO+WhchnyU6g=="
     },
     {
       "name": "gatherFootnotes",
-      "filename": "/home/runner/work/x.alemsorg/x.alemsorg/.codedoc/node_modules/@codedoc/core/dist/es6/components/footnote/gather-footnotes.js",
-      "hash": "Cb0S76b2/pwhusQhZj9KLQ=="
+      "filename": "/home/runner/work/alems/alems/.codedoc/node_modules/@codedoc/core/dist/es6/components/footnote/gather-footnotes.js",
+      "hash": "9DnV9s548SigltFHdZ70BA=="
     }
   ],
   "components": [
     {
       "name": "GithubSearch",
-      "filename": "/home/runner/work/x.alemsorg/x.alemsorg/.codedoc/node_modules/@codedoc/core/dist/es6/components/misc/github/search.js",
-      "hash": "Ka0FgJbIEHVM7SRvuKlfIQ=="
+      "filename": "/home/runner/work/alems/alems/.codedoc/node_modules/@codedoc/core/dist/es6/components/misc/github/search.js",
+      "hash": "MqRdFpOqVx6Hosh2+D7O3w=="
     },
     {
       "name": "ToCToggle",
-      "filename": "/home/runner/work/x.alemsorg/x.alemsorg/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/toggle/index.js",
-      "hash": "uAUaSVWNKohnV50x6KROCw=="
+      "filename": "/home/runner/work/alems/alems/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/toggle/index.js",
+      "hash": "VM7ETWZnzy5zNZVPBte8wg=="
     },
     {
       "name": "DarkModeSwitch",
-      "filename": "/home/runner/work/x.alemsorg/x.alemsorg/.codedoc/node_modules/@codedoc/core/dist/es6/components/darkmode/index.js",
-      "hash": "kcua1y/JUzPuZS2FaCDICA=="
+      "filename": "/home/runner/work/alems/alems/.codedoc/node_modules/@codedoc/core/dist/es6/components/darkmode/index.js",
+      "hash": "vMEWluQlt5VPPqUZMsIK+A=="
     },
     {
       "name": "ConfigTransport",
-      "filename": "/home/runner/work/x.alemsorg/x.alemsorg/.codedoc/node_modules/@codedoc/core/dist/es6/transport/config.js",
-      "hash": "cWy+whMafGBknb2u8H0CNA=="
-    },
-    {
-      "name": "SeeTypo",
-      "filename": "/home/runner/work/x.alemsorg/x.alemsorg/.codedoc/components/SeeTypo/index.tsx",
-      "hash": "+eiMXi+vWAyHtjAyaHWxRg=="
+      "filename": "/home/runner/work/alems/alems/.codedoc/node_modules/@codedoc/core/dist/es6/transport/config.js",
+      "hash": "c9xVz0RnXj7i95SoYcs73A=="
     },
     {
       "name": "ToCPrevNext",
-      "filename": "/home/runner/work/x.alemsorg/x.alemsorg/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/prevnext/index.js",
-      "hash": "dUcR/fK5mQVwT54l7ZYJ2w=="
+      "filename": "/home/runner/work/alems/alems/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/prevnext/index.js",
+      "hash": "EZ/Ulqkm40kxvHyrnNsnug=="
     }
   ],
   "renderer": {
     "name": "getRenderer",
-    "filename": "/home/runner/work/x.alemsorg/x.alemsorg/.codedoc/node_modules/@codedoc/core/dist/es6/transport/renderer.js",
-    "hash": "TVy2QruABWzKS3RT/3A6Vw=="
+    "filename": "/home/runner/work/alems/alems/.codedoc/node_modules/@codedoc/core/dist/es6/transport/renderer.js",
+    "hash": "qBvYMxJW23X+NwRja1AAmA=="
   }
 }
