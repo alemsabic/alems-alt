@@ -83,6 +83,11 @@
   ],
   "components": [
     {
+      "name": "CollapseControl",
+      "filename": "/home/runner/work/alems/alems/.codedoc/node_modules/@codedoc/core/dist/es6/components/collapse/collapse-control.js",
+      "hash": "wVlaEpLmkYWzaRSh1I5uWQ=="
+    },
+    {
       "name": "GithubSearch",
       "filename": "/home/runner/work/alems/alems/.codedoc/node_modules/@codedoc/core/dist/es6/components/misc/github/search.js",
       "hash": "MqRdFpOqVx6Hosh2+D7O3w=="
