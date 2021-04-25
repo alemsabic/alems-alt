@@ -65,12 +65,12 @@ overflow: -moz-scrollbars-none;
   opacity: 1;
   text-decoration: none !important;
 }
-.container hr {
+hr {
   background: none;
   border: 0;
   
 }
-.container hr::after {
+hr::after {
   content: '* * *';
   display: block;
   opacity: 0.5;
