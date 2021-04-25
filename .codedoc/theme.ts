@@ -6,33 +6,33 @@ export const theme = /*#__PURE__*/createTheme({
 
   light: {
     background: 'rgba(198,198,198)',           // --> CSS color string, background of the page
-    text: 'rgba(51,51,51)',            // --> CSS color string, color of text
-    primary: '#0066cc',             // --> CSS color string, primary color (for buttons, links, etc)
+    text: 'rgba(68,68,68)',            // --> CSS color string, color of text
+    primary: 'rgba(68,127,154)',            // --> CSS color string, primary color (for buttons, links, etc)
     primaryContrast: 'rgba(198,198,198)',      // --> CSS color string, text color on primary background (e.g. buttons)
     border: 'rgba(0,0,0,0.2)',               // --> CSS color string, border colors
-    code: 'rgba(51,51,51)',                  // --> CSS color string, in-text code color
+    code: 'rgba(68,68,68)',                  // --> CSS color string, in-text code color
   },
 
   dark: {
-    background: 'rgba(76,103,168)',           // --> CSS color string, background of the page
-    text: '#eee',              // --> CSS color string, color of text
-    primary: '#fff',            // --> CSS color string, primary color (for buttons, links, etc)
+    background: 'rgba(68,68,68)',          // --> CSS color string, background of the page
+    text: 'rgba(105,240,174,1)',              // --> CSS color string, color of text
+    primary: 'rgba(203,94,59,1)',            // --> CSS color string, primary color (for buttons, links, etc)
     primaryContrast: '#000',  // --> CSS color string, text color on primary background (e.g. buttons)
-    border: 'rgba(255,255,255,0.4)',      // --> CSS color string, border colors
+    border: 'rgba(105,240,174,0.4)',      // --> CSS color string, border colors
     code: '#69f0ae',                  // --> CSS color string, in-text code color
   },
 
 
   quote: {
     dark: {
-      background: 'rgba(51,51,51)',
+      background: 'rgba(68,68,68)',
       text: '#69f0ae', 
       border: 'rgba(105,240,174,0.4)',
     },
 
     light: {
       background: 'rgba(198,198,198)',
-      text: 'rgba(51,51,51)',
+      text: 'rgba(68,68,68)',
       border: 'rgba(0,0,0,0.2)',
     },
   },
@@ -40,13 +40,13 @@ export const theme = /*#__PURE__*/createTheme({
 
   toc: {                                 
     light: {
-      background: 'rgba(215,217,217,0.4)',             // --> CSS color string, background of ToC
+      background: 'rgba(198,198,198,0.4)',               // --> CSS color string, background of ToC
       border: 'rgba(0,0,0,0.2)',                 // --> CSS color string, border of ToC
     },
 
     dark: {
-      background: 'rgba(76,103,168,0.4)',             // --> CSS color string, background of ToC
-      border: 'rgba(255,255,255,0.4)',                // --> CSS color string, border of ToC
+      background: 'rgba(68,68,68,0.4)',             // --> CSS color string, background of ToC
+      border: 'rgba(105,240,174,0.2)',                // --> CSS color string, border of ToC
     },             
   },
 

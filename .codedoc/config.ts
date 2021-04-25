@@ -27,12 +27,12 @@ export const config = /*#__PURE__*/configuration({
   },
   page: {
     title: {
-      base: 'x.alems.org',
+      base: 'alems.org',
       connector: ' > ',
     },
     meta: {                              // --> meta tags of each page
-      subject: 'Sarajevski žargon',           // --> the subject meta tag for each page
-      description: 'Stranica Alema Šabića. Uz pomoć nekih drugih budala.',          // --> description meta tag for each page
+      subject: 'Virus!',           // --> the subject meta tag for each page
+      description: 'Jesmo najebali!',          // --> description meta tag for each page
       keywords: ['test','test', 'text'],                        
       themeColor: '#c6c6c6',             // --> the browser bar color of your docs
       appleMobileWebStatusBarStyle:      // --> same as above, but for iOS Safari
@@ -42,8 +42,8 @@ export const config = /*#__PURE__*/configuration({
     fonts: {                             // --> font settings
       text: {                            // --> font used for texts
         url:                             // --> URL of font used for texts
-          'https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;1,400&display=swap',
-        name: 'IBM Plex Mono',                    // --> name of font used for texts
+          'https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap',
+        name: 'Space Mono',                    // --> name of font used for texts
         fallback: 
         `'Courier New', Courier, monospace`           // --> the fallback font for texts
       },
