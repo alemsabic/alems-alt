@@ -84,7 +84,7 @@ export const config = /*#__PURE__*/configuration({
   ],
   misc: {
     github: {
-      repo: 'x.alemsorg',         // --> change this to your github repo
+      repo: 'alems',         // --> change this to your github repo
       user: 'alemsabic'         // --> change this to your github username
     }
   }

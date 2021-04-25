@@ -1,7 +1,16 @@
 import { CodedocConfig } from '@codedoc/core';
-import { Footer as _Footer } from '@codedoc/core/components';
+import { Footer as _Footer, GitterToggle$} from '@codedoc/core/components';
 
 
 export function Footer(config: CodedocConfig, renderer: any) {
-  return <_Footer/>;
+  let github$;
+  if (config.misc?.github)
+    github$ = <a class="icon icon-font" href={`/`}>home</a>;
+  let community$;
+  if (config.misc?.gitter)
+  community$ = <GitterToggle$ room={config.misc.gitter.room} label='chat' icon={true}/>;
+  if (github$ && community$) return <_Footer>{github$}<hr/>{community$}</_Footer>;
+  else if (github$) return <_Footer>{github$}<hr/><a class="icon icon-font" href={`/tags`}>tag</a></_Footer>;
+  else if (community$) return <_Footer>{community$}</_Footer>;
+  else return <_Footer></_Footer>;
 }

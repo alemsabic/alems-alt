@@ -40,12 +40,12 @@ export const theme = /*#__PURE__*/createTheme({
 
   toc: {                                 
     light: {
-      background: 'rgba(198,198,198,0.4)',               // --> CSS color string, background of ToC
+      background: 'rgba(198,198,198,0.8)',               // --> CSS color string, background of ToC
       border: 'rgba(0,0,0,0.2)',                 // --> CSS color string, border of ToC
     },
 
     dark: {
-      background: 'rgba(68,68,68,0.4)',             // --> CSS color string, background of ToC
+      background: 'rgba(68,68,68,0.8)',             // --> CSS color string, background of ToC
       border: 'rgba(105,240,174,0.2)',                // --> CSS color string, border of ToC
     },             
   },
