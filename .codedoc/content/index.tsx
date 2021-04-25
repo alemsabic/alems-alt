@@ -97,13 +97,15 @@ body h1::before {
   opacity: 0.5;
 }
 .intro {
-  padding-right:32px;
   -webkit-columns: 200px 2;
   -moz-columns: 200px 2;
   columns: 200px 2;
   -webkit-column-gap: 32px;
   -moz-column-gap: 32px;
   column-gap: 32px;
+
+}
+.intro p{
   font-size: calc(.7rem + 0.1vw);
   line-height:1.8;
 }
