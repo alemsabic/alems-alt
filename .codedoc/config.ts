@@ -34,7 +34,7 @@ export const config = /*#__PURE__*/configuration({
       subject: 'Virus!',           // --> the subject meta tag for each page
       description: 'Jesmo najebali!',          // --> description meta tag for each page
       keywords: ['test','test', 'text'],                        
-      themeColor: '#c6c6c6',             // --> the browser bar color of your docs
+      themeColor: 'rgba(25,112,180)',             // --> the browser bar color of your docs
       appleMobileWebStatusBarStyle:      // --> same as above, but for iOS Safari
         'black-translucent',
         

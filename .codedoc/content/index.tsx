@@ -106,7 +106,7 @@ body h1::before {
 
 }
 .intro p{
-  font-size: calc(.7rem + 0.1vw);
+  font-size: calc(0.75rem + 0.15vw);
   line-height:1.8;
 }
 `}
