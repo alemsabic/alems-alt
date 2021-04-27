@@ -1,8 +1,3 @@
-> :Hero src=/img/alems-white.svg,
->       mode=light
-
-> :Hero src=/img/alems.svg,
->       mode=dark
 
 
 ### Was soll das?
