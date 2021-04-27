@@ -214,49 +214,14 @@ a.button-0-0-7.icon {
   body.dark-mode-animate .collapse-0-0-8>.label .icon-font {
     transition: transform .15s;
   }
-  .watermark-0-0-9 {
-    color: rgba(255,255,255);
-    cursor: pointer;
-    display: inline-block;
-    opacity: 0.2;
-    font-size: 8px;
-    transition: opacity .15s;
-    text-decoration: none !important;
+  .header-0-0-9 {
+    top: 0;
+    right: 0;
+    padding: 32px;
+    z-index: 100;
+    position: fixed;
+    text-align: right;
   }
-  body.dark-mode-animate .watermark-0-0-9 {
-    transition: opacity .15s, color .3s;
-  }
-  .watermark-0-0-9:hover {
-    opacity: 1;
-    text-decoration: none;
-  }
-@media (prefers-color-scheme: dark) {
-  body:not(.dark-mode-animate) .watermark-0-0-9 {
-    color: rgba(105,240,174,1);
-  }
-}
-  body.dark .watermark-0-0-9 {
-    color: rgba(105,240,174,1);
-  }
-  .watermark-0-0-9 svg {
-    width: 2.8rem;
-    display: block;
-    margin-top: .25rem;
-  }
-  .watermark-0-0-9 svg g {
-    fill: rgba(255,255,255);
-  }
-  body.dark-mode-animate .watermark-0-0-9 svg g {
-    transition: fill .3s;
-  }
-  body.dark .watermark-0-0-9 svg g {
-    fill: rgba(105,240,174,1);
-  }
-@media (prefers-color-scheme: dark) {
-  body:not(.dark-mode-animate) .watermark-0-0-9 svg g {
-    fill: rgba(105,240,174,1);
-  }
-}
   .footer-0-0-10 {
     left: 0;
     right: 0;
