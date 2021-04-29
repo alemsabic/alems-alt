@@ -18,6 +18,7 @@ import { gatherFootnotes } from '/home/runner/work/alems/alems/.codedoc/node_mod
 import { CollapseControl } from '/home/runner/work/alems/alems/.codedoc/node_modules/@codedoc/core/dist/es6/components/collapse/collapse-control.js';
 import { GithubSearch } from '/home/runner/work/alems/alems/.codedoc/node_modules/@codedoc/core/dist/es6/components/misc/github/search.js';
 import { ToCToggle } from '/home/runner/work/alems/alems/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/toggle/index.js';
+import { GitterToggle } from '/home/runner/work/alems/alems/.codedoc/node_modules/@codedoc/core/dist/es6/components/misc/gitter/index.js';
 import { DarkModeSwitch } from '/home/runner/work/alems/alems/.codedoc/node_modules/@codedoc/core/dist/es6/components/darkmode/index.js';
 import { ConfigTransport } from '/home/runner/work/alems/alems/.codedoc/node_modules/@codedoc/core/dist/es6/transport/config.js';
 import { ToCPrevNext } from '/home/runner/work/alems/alems/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/prevnext/index.js';
@@ -26,6 +27,7 @@ const components = {
   'wVlaEpLmkYWzaRSh1I5uWQ==': CollapseControl,
   'MqRdFpOqVx6Hosh2+D7O3w==': GithubSearch,
   'VM7ETWZnzy5zNZVPBte8wg==': ToCToggle,
+  'FcIDsNc9NPUa3TRllf4d8A==': GitterToggle,
   'vMEWluQlt5VPPqUZMsIK+A==': DarkModeSwitch,
   'c9xVz0RnXj7i95SoYcs73A==': ConfigTransport,
   'EZ/Ulqkm40kxvHyrnNsnug==': ToCPrevNext

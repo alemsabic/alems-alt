@@ -98,6 +98,11 @@
       "hash": "VM7ETWZnzy5zNZVPBte8wg=="
     },
     {
+      "name": "GitterToggle",
+      "filename": "/home/runner/work/alems/alems/.codedoc/node_modules/@codedoc/core/dist/es6/components/misc/gitter/index.js",
+      "hash": "FcIDsNc9NPUa3TRllf4d8A=="
+    },
+    {
       "name": "DarkModeSwitch",
       "filename": "/home/runner/work/alems/alems/.codedoc/node_modules/@codedoc/core/dist/es6/components/darkmode/index.js",
       "hash": "vMEWluQlt5VPPqUZMsIK+A=="
