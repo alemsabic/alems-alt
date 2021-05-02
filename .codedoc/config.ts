@@ -42,8 +42,8 @@ export const config = /*#__PURE__*/configuration({
     fonts: {                             // --> font settings
       text: {                            // --> font used for texts
         url:                             // --> URL of font used for texts
-          'https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap',
-        name: 'Space Mono',                    // --> name of font used for texts
+          'https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300;400;700&display=swap',
+        name: 'Overpass Mono',                    // --> name of font used for texts
         fallback: 
         `'Courier New', Courier, monospace`           // --> the fallback font for texts
       },
