@@ -37,9 +37,9 @@ export function content(_content: HTMLElement, toc: HTMLElement, renderer: Rende
 {`
 h2 {line-height:1.3;}
 h3 {line-height:1.3;}
-h1 {line-height:1.3; text-transform:uppercase; text-align:center;}
+h1 {line-height:1.3; text-transform:uppercase;}
 
-h1{font-size: calc(2rem + 1.8vw);}
+h1{font-size: calc(1.4rem + 1.3vw);}
 h2 {font-size: calc(1.2rem + 1.1vw);}
 h3 {font-size: calc(0.85rem + 0.6vw);}
 .container p, .container ol, .container ul {font-size: calc(1rem + 0.15vw);}
@@ -56,7 +56,7 @@ overflow: -moz-scrollbars-none;
   display: none; 
 }
 
-.container {line-height:1.8;}
+
 .inside a.icon-font {font-size:36px;}
 .inside a.icon-font {
   opacity: 0.35;
@@ -88,14 +88,6 @@ body::before {
   z-index: 100;
 }
 
-body h1::after {
-  content: " ]";
-  opacity: 0.5;
-}
-body h1::before {
-  content: "[ ";
-  opacity: 0.5;
-}
 .intro {
   -webkit-columns: 200px 2;
   -moz-columns: 200px 2;
@@ -107,7 +99,14 @@ body h1::before {
 }
 .intro p{
   font-size: calc(0.75rem + 0.15vw);
-  line-height:1.8;
+}
+body {
+  text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.8);
+  background-image: url(../img/noise-2.png);
+}
+body.dark {
+  text-shadow: none;
+  background-image: none;
 }
 `}
 </style>
